@@ -9,14 +9,17 @@
 h1{
   font-family: var(--heading-font-family);
   font-size: 96px;
+  line-height: 1.5;
 }
 h2{
   font-size: 62px;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
 }
 p{
   font-family: var(--default-font-family);
-  line-height: 1.5;
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 16px;
 }
 .hero{
   background: var(--secondary-color);
@@ -33,7 +36,7 @@ p{
   font-size: 24px;
   color: #272142;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
 }
 .btn-branding{
   background-color: var(--branding-color);
@@ -44,10 +47,29 @@ p{
   border-radius: 4px;
 }
 .btn-branding-outline{
-  font-family: var(--default-font-family);
+    font-family: var(--default-font-family);
     font-size: 18px;
     padding: 18px 46px;
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
     border-radius: 4px;
+}
+.project-description{
+  padding: 120px 60px;
+}
+@media(max-width: 960px){
+  .hero{
+    padding: 80px 20px;
+  }
+  h1{
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2{
+    font-size: 44px;
+  }
+  .project-description{
+    padding: 0;
+    text-align: center;
+  }
 }
