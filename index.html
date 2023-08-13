@@ -29,7 +29,11 @@
 	<body>
 		<div class="container">
 			<nav class="d-flex justify-content-between">
-				<img src="img/logo.png" alt="Anastasiia's logo" class="logo d-none d-md-block" />
+				<a href="/" title="Homepage"></a>
+				<img
+					src="img/logo.png"
+					alt="Anastasiia's logo"
+					class="logo d-none d-md-block" />
 				<img
 					src="img/logo_sm.jpg"
 					class="logo d-block d-md-none"
@@ -37,12 +41,16 @@
 					srcset="" />
 				<ul>
 					<li class="active">
-						<a href="/">Home</a>
+						<a href="/" title="Homepage">Home</a>
 					</li>
-					<li><a href="/about.html">About</a></li>
-					<li><a href="/travels.html">Travels</a></li>
-					<li><a href="/work.html">Work</a></li>
-					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/about.html" title="About Anastasiia">About</a></li>
+					<li>
+						<a href="/travels.html" title="Anastasiia's Trips">Travels</a>
+					</li>
+					<li><a href="/work.html" title="Anastasiia's Work">Work</a></li>
+					<li>
+						<a href="/contact.html" title="Contact Anastasiia">Contact</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -50,7 +58,7 @@
 			<p>👋Hello, I am</p>
 			<h1>Anastasiia Shumeiko</h1>
 			<h2 class="mb-3">Front-end developer, based in Amsterdam</h2>
-			<a href="/" class="btn btn-branding">Contact me</a>
+			<a href="/contact.html" class="btn btn-branding">Contact me</a>
 		</div>
 
 		<p class="text-center m-5">
@@ -59,21 +67,22 @@
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col d-none d-lg-block">
-					<img src="img/yogurt.png" alt="Yogurt app" class="img-fluid" />
+					<img
+						src="img/yogurt.png"
+						alt="Yogurt app preview"
+						class="img-fluid" />
 				</div>
 
 				<div class="col">
 					<div class="project-description">
-						<h2 class="mb-5">My Trips</h2>
+						<h2 class="mb-5">Yogurt App</h2>
 						<p class="text-center mb-5 text-muted">
 							Far far away, behind the word mountains, far from the countries
 							Vokalia and Consonantia, there live the blind texts. Separated
 							they live in Bookmarksgrove right at the coast of the Semantics, a
 							large language ocean. A small river named Duden flows by
 						</p>
-						<a href="/about.html" class="btn btn-branding-outline"
-							>Learn more</a
-						>
+						<a href="/work.html" class="btn btn-branding-outline">Learn more</a>
 					</div>
 				</div>
 			</div>
@@ -87,35 +96,34 @@
 							they live in Bookmarksgrove right at the coast of the Semantics, a
 							large language ocean. A small river named Duden flows by
 						</p>
-						<a href="/about.html" class="btn btn-branding-outline"
-							>Learn more</a
-						>
+						<a href="/work.html" class="btn btn-branding-outline">Learn more</a>
 					</div>
 				</div>
 				<div class="col d-none d-lg-block">
-					<img src="img/weather.png" alt="weather app" class="img-fluid" />
+					<img
+						src="img/weather.png"
+						alt="Weather app preview"
+						class="img-fluid" />
 				</div>
 			</div>
 			<div class="row mb-5">
 				<div class="col d-none d-lg-block">
 					<img
 						src="img/dictionary.png"
-						alt="dictionary app"
+						alt="Dictionary app preview"
 						class="img-fluid" />
 				</div>
 
 				<div class="col">
 					<div class="project-description">
-						<h2 class="mb-5">My Trips</h2>
+						<h2 class="mb-5">Dictionary App</h2>
 						<p class="text-center mb-5 text-muted">
 							Far far away, behind the word mountains, far from the countries
 							Vokalia and Consonantia, there live the blind texts. Separated
 							they live in Bookmarksgrove right at the coast of the Semantics, a
 							large language ocean. A small river named Duden flows by
 						</p>
-						<a href="/about.html" class="btn btn-branding-outline"
-							>Learn more</a
-						>
+						<a href="/work.html" class="btn btn-branding-outline">Learn more</a>
 					</div>
 				</div>
 			</div>
@@ -126,29 +134,52 @@
 						<p class="text-muted">Let's work together!</p>
 					</div>
 					<div>
-						<a href="/contact.html" class="btn btn-branding">Contact me</a>
+						<a
+							href="/contact.html"
+							class="btn btn-branding"
+							title="Contact Anastasiia"
+							>Contact me</a
+						>
 					</div>
 				</div>
-				<div class="d-flex justify-content-center mb-5">
-					<a class="email-link" href="mailto:vyahirevan@gmail.com"
+				<div class="d-flex justify-content-center mb-5 d-none d-md-flex">
+					<a
+						class="email-link"
+						href="mailto:vyahirevan@gmail.com"
+						title="Email Anastasiia"
+						target="_blank"
 						>vyahirevan@gmail.com</a
 					>
 				</div>
 				<div class="social-links d-flex justify-content-center">
 					<a
 						href="https://www.instagram.com/oleksandr_anastasiia_family/"
-						target="_blank">
+						target="_blank"
+						title="Instagram Profile">
 						<i class="fa-brands fa-instagram"></i>
 					</a>
 					<a
 						href="https://www.linkedin.com/in/shumeikoanastasiia/"
-						target="_blank">
+						target="_blank"
+						title="LinkedIn Profile">
 						<i class="fa-brands fa-linkedin"></i>
 					</a>
-					<a href="https://github.com/AnastasiaCodeGirl" target="_blank">
+					<a
+						href="https://github.com/AnastasiaCodeGirl"
+						target="_blank"
+						title="GitHub Profile">
 						<i class="fa-brands fa-square-github"></i>
 					</a>
 				</div>
+				<p class="text-center mt-5">
+					👩‍💻 This project was coded by Anastasiia and it is
+					<a
+						href="https://github.com/AnastasiaCodeGirl/Portfolio_Project"
+						target="_blank"
+						title="GitHub Project">
+						open-sourced</a
+					>
+				</p>
 			</footer>
 		</div>
 	</body>
